@@ -91,22 +91,6 @@ Tasks remain available even after:
 
 ---
 
-## 📸 Screenshots
-
-### Home Page
-
-![Home Page](screenshots/home.png)
-
-### Add Task
-
-![Add Task](screenshots/add-task.png)
-
-### Completed Task
-
-![Completed Task](screenshots/completed-task.png)
-
----
-
 ## 🎯 Learning Outcomes
 
 Through this project, I learned:
