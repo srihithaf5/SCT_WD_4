@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart To-Do App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>📝 Smart To-Do App</h1>
+
+    <div class="task-form">
+
+        <input type="text"
+            id="taskInput"
+            placeholder="Enter Task">
+
+        <input type="datetime-local"
+            id="taskDate">
+
+        <button onclick="addTask()">
+            <i class="fas fa-plus"></i> Add
+        </button>
+
+    </div>
+
+    <div class="stats">
+
+        <div class="card">
+            <h2 id="totalTasks">0</h2>
+            <p>Total Tasks</p>
+        </div>
+
+        <div class="card">
+            <h2 id="completedTasks">0</h2>
+            <p>Completed</p>
+        </div>
+
+        <div class="card">
+            <h2 id="pendingTasks">0</h2>
+            <p>Pending</p>
+        </div>
+
+    </div>
+
+    <ul id="taskList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
