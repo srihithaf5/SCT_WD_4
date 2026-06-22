@@ -103,3 +103,5 @@ Through this project, I learned:
 - CRUD Operations
 - UI/UX Design Principles
 
+<img width="1892" height="952" alt="image" src="https://github.com/user-attachments/assets/410ebf4e-9c84-4fb1-a014-4ba7c43dc2a0" />
+
